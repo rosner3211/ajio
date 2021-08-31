@@ -18,7 +18,7 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.redirect("https://zippyloan.com/", True)
+        self.redirect("https://www.ajio.com/", True)
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
